@@ -1,0 +1,23 @@
+function mensagemTipoAnimal(tipoAnimal) {
+  switch (tipoAnimal) {
+    case "cachorro":
+      console.log("Você tem um cachorro.");
+      break;
+    case "gato":
+      console.log("Você tem um gato.");
+      break;
+    case "pássaro":
+      console.log("Você tem um pássaro.");
+      break;
+    default:
+      console.log("Outro");
+      break;
+  }
+}
+
+
+
+mensagemTipoAnimal("cachorro");    
+mensagemTipoAnimal("gato");        
+mensagemTipoAnimal("pássaro");     
+mensagemTipoAnimal("peixe");       

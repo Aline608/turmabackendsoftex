@@ -1,0 +1,31 @@
+function mensagemEstadoCivil(estadoCivil) {
+    switch (estadoCivil) {
+      case "solteiro":
+        console.log("Você é solteiro(a).");
+        break;
+      case "casado":
+        console.log("Você é casado(a).");
+        break;
+      case "divorciado":
+        console.log("Você é divorciado(a).");
+        break;
+      default:
+        console.log("Outro.");
+        break;
+    }
+  }
+  
+
+  
+  mensagemEstadoCivil("solteiro");    
+  mensagemEstadoCivil("casado");      
+  mensagemEstadoCivil("divorciado");  
+  mensagemEstadoCivil("viúvo");       
+   
+  
+  
+  
+  
+  
+  
+  

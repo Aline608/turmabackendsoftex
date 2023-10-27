@@ -1,0 +1,29 @@
+function calcularOperacao(operador, num1, num2) {
+  let resultado;
+
+  switch (operador) {
+    case "soma":
+      resultado = num1 + num2;
+      break;
+    case "subtração":
+      resultado = num1 - num2;
+      break;
+    case "multiplicação":
+      resultado = num1 * num2;
+      break;
+    case "divisão":
+      resultado = num1 / num2;
+      break;
+   
+  }
+
+  console.log("O resultado da operação é: " + resultado);
+}
+
+
+
+calcularOperacao("soma", 5, 3);           
+calcularOperacao("subtração", 10, 7);     
+calcularOperacao("multiplicação", 4, 6);  
+calcularOperacao("divisão", 15, 3);       
+calcularOperacao("potenciação", 2, 3);    
